@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const ResetPswd = () => {
   return (
-    <div>
+    <div className='flex flex-col items-center'>
         <div>
             <InputField 
             label="Enter New Password"

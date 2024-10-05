@@ -4,8 +4,8 @@ import logoDark from '../assets/logoDark.svg'
 import { Link } from 'react-router-dom'
 
 const Login = () => {
-  return (
-    <div className='flex flex-col items-center justify-between h-[500px]'>
+  return ( 
+    <div className='flex flex-col items-center justify-between h-[500px] max-w-[350px]'>
         <div className='flex flex-col items-center'>
             <img src={logoDark} alt="D.W.D Logo" />
             <h1 className='text-[#491B6D] text-left max-w-[350px] font-bold text-[26px] leading-[36px]'>Create An Account</h1>
